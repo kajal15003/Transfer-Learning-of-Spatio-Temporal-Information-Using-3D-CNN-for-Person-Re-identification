@@ -1,6 +1,7 @@
 # C3D Feature Extraction
+This project aims at re-identify person. It is based on our IEEE-SMC 2019 paper Hdrnet: The code is modified from the [C3D] https://github.com/facebook/C3D given by Facebook.
 
-#Installation
+# Installation
 Install C3D (same as install caffe and its dependences), following the following steps:
 Download our-trained model and save it to YOUR_C3D_HOME/examples/c3d_feature_extraction
 
