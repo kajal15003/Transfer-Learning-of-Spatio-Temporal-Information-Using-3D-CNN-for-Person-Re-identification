@@ -1,13 +1,15 @@
-C3D Feature Extraction
+# C3D Feature Extraction
 
+#Installation
 Install C3D (same as install caffe and its dependences), following the following steps:
 Download our-trained model and save it to YOUR_C3D_HOME/examples/c3d_feature_extraction
-A. Compute volume mean from list
+
+# Compute volume mean from list
 This tool allows you to compute volume mean for you own dataset which can be useful for both training from scratch or fine-tuning C3D on your own dataset.
 Usage:
 GLOG_logtostderr=1 compute_volume_mean_from_list input_chunk_list length height width sampling_rate output_file [dropping rate]
-B. 
-Extract C3D features
+
+# Extract C3D features
 Assume that you have prepared your setting files, then you need to modify the prototxt file to point to the input list file. In the prototxt file, looks for line:
 	
 	source: "prototxt/input_list_frm.txt"
