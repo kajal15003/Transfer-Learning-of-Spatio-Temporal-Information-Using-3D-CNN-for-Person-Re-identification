@@ -1,8 +1,9 @@
 # Transfer-Learning-of-Spatio-Temporal-Information-Using-3D-CNN-for-Person-Re-identification
 
+# Citation
 
 If you use any of the provided code, please cite:
-
+```
 @inproceedings{kansal2018transfer,
   title={Transfer Learning of Spatio-Temporal Information Using 3D-CNN for Person Re-identification},
   author={Kansal, Kajal and Subramanyam, AV},
@@ -11,3 +12,4 @@ If you use any of the provided code, please cite:
   year={2018},
   organization={IEEE}
 }
+```
